@@ -21,6 +21,7 @@ package com.example.icetask1and2
                 getStartedButton.setOnClickListener {
 // Create an intent to move from activity 1 to activity 2
                     val intent = Intent( this,  Activity2::class.java)
+                    startActivity(intent)
                 }
             }
         }
